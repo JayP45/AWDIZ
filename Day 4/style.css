@@ -1,0 +1,18 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+table,tr,th,td{
+    border :1px solid black ;
+    border-collapse: collapse;
+}
+
+.table-head th{
+    padding: 0px 87px 12px 41px;
+}
+
+.table-head td{
+    padding: 5px;
+}
