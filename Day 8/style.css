@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.template{
+    height: 650px;
+    width: 600px;
+    background-color: rgb(10, 9, 9);
+    border-radius: 5px;
+}
+
+.img img{
+    margin-top: 14px;
+    margin-left: 10px; 
+    border-radius: 50%;
+
+}
+
+.img{
+    display: flex;
+}
+
+.intro h1{
+    margin: 30px 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro p{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.obj{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.obj p{
+    margin-top: 10px;
+}
+
+.projects{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.projects table{
+    margin-top: 10px;
+}
+
+table,tr,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table tbody td{
+    padding: 5px;
+}
+
+table thead th{
+    padding: 5px;
+}
+
+.education{
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.orange_txt{
+    color: orange;
+}
