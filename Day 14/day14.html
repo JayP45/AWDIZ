@@ -25,6 +25,7 @@
         #screen {
             width: 100%;
             /* border: 10px solid red; */
+            overflow-x: hidden;
         }
 
         #navbar {
@@ -110,13 +111,14 @@
         }
 
         #mobile-ad {
-            width: 99%;
+            width: 100%;
             height: 500px;
             /* border: 5px solid purple; */
         }
 
         #mobile-ad>div {
             width: 90%;
+            /* background-color: aqua; */
             margin: auto;
             height: 400px;
             /* border: 2px solid red; */
@@ -127,9 +129,9 @@
 
         #mobile-ad>div>div:nth-child(1) {
             width: 38%;
-            /* border: 5px solid red; */
+            /* border: 5px solid rgb(14, 168, 78); */
             position: relative;
-            right: 22px;
+            right: 0px;
         }
 
         #mobile-ad>div>div:nth-child(2) {
@@ -140,7 +142,6 @@
         #mobile-ad>div>div:nth-child(2)>img:hover {
             /* border: 5px solid black; */
             scale: 1.05;
-
         }
 
         .mobile-add-One-Plus {
@@ -181,14 +182,387 @@
             border: 1px solid black;
         }
 
-        .para p{
+        .para p {
             position: relative;
             top: 104px;
         }
 
-        .price{
+        .price {
             font-size: 20px;
             margin-top: 128px;
+        }
+
+        #tab-ad>div {
+            width: 90%;
+            margin: auto;
+            margin-top: -50px;
+            height: 400px;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-div-onePlus-pad-go {
+            width: 48%;
+            /* border: 2px solid yellow; */
+            background-color: #FFF0C0;
+            display: flex;
+        }
+
+        .right-div-onePlus-bullets {
+            width: 48%;
+            /* border: 2px solid yellow; */
+        }
+
+        .left-text-padGo {
+            width: 50%;
+            height: 80%;
+            margin-left: 10px;
+            /* border: 2px solid brown; */
+        }
+
+        .left-text-padGo p {
+            margin-top: 10%;
+            font-size: 2.4rem;
+        }
+
+        .left-onePlus-pad-info p {
+            font-size: 15px;
+            position: relative;
+            top: 61px;
+            /* border: 2px solid rgb(106, 202, 27) ; */
+        }
+
+        .left-onePlus-pad-price p {
+            font-size: 20px;
+            margin-top: 75px;
+            /* border: 2px solid orange */
+        }
+
+        .left-image-padGo {
+            width: 50%;
+            height: 80%;
+            margin-top: 20px;
+        }
+
+        .left-image-padGo img:hover {
+            transform: scale(1.3);
+            transition: 0.2s ease-in-out;
+        }
+
+        .left-onePlus-pad-btn {
+            margin-top: 40px;
+        }
+
+        .left-onePlus-pad-1btn {
+            padding: 9px;
+            width: 49%;
+            background-color: black;
+            color: white;
+        }
+
+        .left-onePlus-pad-2btn {
+            padding: 9px;
+            width: 49%;
+            background-color: transparent;
+            border: 1px solid black
+        }
+
+        .right-div-onePlus-pad-go {
+            width: 50%;
+            /* border: 2px solid yellow; */
+            background-color: #FFF0C0;
+            display: flex;
+        }
+
+        /* .right-div-onePlus-bullets {
+            width: 48%;
+            border: 2px solid yellow;
+        } */
+
+        .right-text-padGo {
+            width: 50%;
+            height: 80%;
+            margin-left: 10px;
+            /* border: 2px solid brown; */
+        }
+
+        .right-text-padGo p {
+            margin-top: 10%;
+            font-size: 2.4rem;
+        }
+
+        .right-text-padGo p:nth-child(2) {
+            margin-top: 2%;
+            font-size: 2.4rem;
+        }
+
+        .right-onePlus-pad-info p {
+            font-size: 15px;
+            position: relative;
+            top: 70px;
+            /* border: 2px solid rgb(106, 202, 27) ; */
+        }
+
+        .right-onePlus-pad-price p {
+            font-size: 20px;
+            margin-top: 98px;
+            /* border: 2px solid orange */
+        }
+
+        .right-image-padGo {
+            width: 50%;
+            height: 80%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right-image-padGo img:hover {
+            transform: scale(1.3);
+            transition: 0.2s ease-in-out;
+        }
+
+        .right-onePlus-pad-btn {
+            margin-top: 40px;
+        }
+
+        .right-onePlus-pad-1btn {
+            padding: 9px;
+            width: 49%;
+            background-color: black;
+            color: white;
+        }
+
+        .right-onePlus-pad-2btn {
+            padding: 9px;
+            width: 49%;
+            background-color: transparent;
+            /* border: 1px solid black */
+        }
+
+        .r-w-h-100 {
+            width: 80%;
+            height: 90%;
+        }
+
+        #hot-picks>div:first-child {
+            width: 90%;
+            margin: auto;
+            margin-top: 50px;
+            height: 44px;
+            /* border: 2px solid red; */
+        }
+
+        #hot-picks>div>p {
+            font-size: 1.2rem;
+            color: rgb(57, 54, 54);
+        }
+
+        #hot-picks hr {
+            margin-top: 10px;
+        }
+
+        .hot-picks-nav {
+            width: 90%;
+            margin: auto;
+            margin-top: 30px;
+            /* background-color: red; */
+        }
+
+        .hot-picks-nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 19px;
+        }
+
+        .hot-picks-nav ul li {
+            display: inline;
+            margin-right: 20px;
+            list-style: none;
+        }
+
+        .grid-box {
+            margin: 35px auto;
+            width: 90%;
+            height: 500px;
+            /* border: 1px solid red; */
+        }
+
+        .grid-content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img1 {
+            height: 290px;
+            width: 285px;
+            /* border: 1px solid black; */
+            background-color: #FFF0C0;
+        }
+
+        .img1 img {
+            height: 283px;
+            width: 284px;
+        }
+
+        .img2 {
+            height: 290px;
+            width: 285px;
+            /* border: 1px solid black; */
+            background-color: #FFF0C0;
+        }
+
+        .img2 img {
+            height: 283px;
+            width: 284px;
+        }
+
+        .img3 {
+            height: 290px;
+            width: 285px;
+            /* border: 1px solid black; */
+            background-color: #FFF0C0;
+        }
+
+        .img3 img {
+            height: 283px;
+            width: 284px;
+        }
+
+        .img4 {
+            height: 290px;
+            width: 285px;
+            /* border: 1px solid black; */
+            background-color: #FFF0C0;
+        }
+
+        .img4 img {
+            height: 283px;
+            width: 284px;
+        }
+
+        .img1-info {
+            margin-top: 10px;
+            height: 200px;
+            /* border: 1px solid violet; */
+        }
+
+        .img1-info>p {
+            height: 28px;
+            width: 283px;
+            margin-top: 26px;
+            /* border: 1px solid black; */
+            font-size: 23px;
+        }
+
+        .img1-info>p:nth-child(2) {
+            height: 28px;
+            width: 283px;
+            margin-top: 12px;
+            /* border: 1px solid black; */
+            font-size: small;
+            color: rgb(57, 54, 54);
+        }
+
+        .img1-info>p:nth-child(3) {
+            height: 28px;
+            width: 283px;
+            margin-top: 15px;
+            /* border: 1px solid black; */
+            font-size: 15px;
+        }
+
+
+        .img1-info button {
+            margin-top: 18px;
+            height: 39px;
+            width: 283px;
+            display: inline;
+            /* background: transparent; */
+            color: black;
+            border: hidden;
+        }
+
+        .img1-info button:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .img3-info{
+            margin-top: 10px;
+            height: 200px;
+            /* border: 1px solid violet; */
+        }
+
+        .img3-info p{
+            height: 33px;
+            width: 283px;
+            margin-top: 26px;
+            /* border: 1px solid black; */
+            font-size: 23px;
+        }
+
+        .img3-info>p:nth-child(2) {
+            height: 33px;
+            width: 283px;
+            margin-top: 26px;
+            /* border: 1px solid black; */
+            font-size: 15px;
+        }
+
+        .img3-info button {
+            margin-top: 38px;
+            height: 39px;
+            width: 283px;
+            display: inline;
+            /* background: transparent; */
+            color: black;
+            border: hidden;
+        }
+
+        .img3-info button:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .img4-info {
+            margin-top: 10px;
+            height: 200px;
+            /* border: 1px solid violet; */
+        }
+
+        .img4-info p{
+            height: 33px;
+            width: 283px;
+            margin-top: 26px;
+            /* border: 1px solid black; */
+            font-size: 23px;
+        }
+
+
+        .img4-info>p:nth-child(2) {
+            height: 33px;
+            width: 283px;
+            margin-top: 26px;
+            /* border: 1px solid black; */
+            font-size: 15px;
+        }
+
+        .img4-info button {
+            margin-top: 38px;
+            height: 39px;
+            width: 283px;
+            display: inline;
+            /* background: transparent; */
+            color: black;
+            border: hidden;
+        }
+
+        .img4-info button:hover{
+            background-color: black;
+            color: white;
         }
 
         #footer {
@@ -266,8 +640,127 @@
                 </div>
 
             </div>
-            <div id="tab-ad"></div>
-            <div id="hot-picks"></div>
+            <div id="tab-ad">
+                <div>
+                    <div class="left-div-onePlus-pad-go">
+                        <div class="left-text-padGo">
+                            <p>OnePlus Pad Go</p>
+                            <div>
+                                <div class="left-onePlus-pad-info">
+                                    <p>Pre-order is live! (8+128 GB variant only).
+                                        Get a free Go Folio Case with Pre-order post delivery. Pre-order ends on 20th
+                                        Oct</p>
+                                </div>
+                                <div class="left-onePlus-pad-price">
+                                    <p>From ₹17,999 *Incl. bank Discount</p>
+                                </div>
+                                <div class="left-onePlus-pad-btn">
+                                    <button class="left-onePlus-pad-1btn">Pre-order now</button>
+                                    <button class="left-onePlus-pad-2btn">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-image-padGo">
+                            <img class="w-h-100"
+                                src="https://www.oneplus.in/content/dam/oasis/page/2023/in/medium-product-card/Bluey-%E4%B8%AD%E4%BA%A7%E5%93%81%E5%8D%A1-pc-10.6.png.thumb.webp"
+                                alt="Tab" />
+                        </div>
+                    </div>
+                    <div class="right-div-onePlus-pad-go">
+                        <div class="right-text-padGo">
+                            <p>OnePlus Bullets</p>
+                            <p>Wireles Z2</p>
+                            <div>
+                                <div class="right-onePlus-pad-info">
+                                    <p>Save extra up to ₹200 by using the APP exclusive coupon</p>
+                                </div>
+                                <div class="right-onePlus-pad-price">
+                                    <p>At ₹1 349 *Incl. bank discount</p>
+                                </div>
+                                <div class="right-onePlus-pad-btn">
+                                    <button class="right-onePlus-pad-1btn">Pre-order now</button>
+                                    <button class="right-onePlus-pad-2btn">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-image-padGo">
+                            <img class="r-w-h-100"
+                                src="https://www.oneplus.in/content/dam/oasis/page/2023/in/medium-product-card/pc-7.12-1.png.thumb.webp"
+                                alt="Tab" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hot-picks">
+                <div>
+                    <p>This Week's Hot Picks</p>
+                    <hr>
+                </div>
+                <div class="hot-picks-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Highlights</a></li>
+                            <li><a href="#">Phone</a></li>
+                            <li><a href="#">TV & Display</a></li>
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Wearable</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="grid-box">
+                    <div class="grid-content">
+                        <div class="img1">
+                            <img src="https://image01-in.oneplus.net/ebp/202303/29/1-m00-50-fd-cpgm7wqj5riagurqaakzkxnnips198_420_420.png"
+                                alt="img1">
+
+                            <div class="img1-info">
+                                <p>OnePlus Nord CE 3 Lite 5G</p>
+                                <p>Save the RedCoins</p>
+                                <p>Save ₹500 with coupon</p>
+                                <button><i class="fa-solid fa-cart-shopping" style="margin-right: 8px; font-size: 15px"></i><span style="font-size: 17px;">From ₹19,999</span></button>
+                            </div>
+
+                        </div>
+
+                        <div class="img2">
+                            <img src="https://image01-in.oneplus.net/ebp/202302/08/1-m00-4e-16-cpgm7mpjxnoabtqjaah4p22vdfq137_420_420.png"
+                                alt="img2">
+
+                                <div class="img1-info">
+                                    <p>OnePlus 11 5G</p>
+                                    <p>With a gift</p>
+                                    <p class="img2-para3">Save ₹4 000 with coupon. Get free Buds Z2 on every purchase.</p>
+                                    <button><i class="fa-solid fa-cart-shopping" style="margin-right: 8px; font-size: 15px"></i><span style="font-size: 17px;">From ₹19,999</span></button>
+                                </div>
+                        </div>
+
+                        <div class="img3">
+                            <img src="https://image01-in.oneplus.net/ebp/202303/28/1-m00-50-fb-cpgm7wqiw0kacxzxaaj0aogerf8199_420_420.png"
+                                alt="img3">
+
+                                <div class="img3-info">
+                                <p>OnePlus Nord Buds 2</p>
+                                <!-- <p>Save the RedCoins</p> -->
+                                <p>Save extra up to ₹200 by using the APP exclusive coupon</p>
+                                <button class="btn-3"><i class="fa-solid fa-cart-shopping" style="margin-right: 8px; font-size: 15px"></i><span style="font-size: 17px;">From ₹19,999</span></button>
+                            </div>
+                        </div>
+
+                        <div class="img4">
+                            <img src="https://image01-in.oneplus.net/ebp/202304/13/1-m00-51-1b-cpgm7wq35waawfbbaas0vraswfq234_420_420.png"
+                                alt="img4">
+
+                                <div class="img4-info">
+                                    <p>OnePlus Pad</p>
+                                    <!-- <p>Save the RedCoins</p> -->
+                                    <p>Save ₹2000 with RCC Linked Device Coupon.</p>
+                                    <button class="btn-4"><i class="fa-solid fa-cart-shopping" style="margin-right: 8px; font-size: 15px"></i><span style="font-size: 17px;">From ₹19,999</span></button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="footer">Footer</div>
     </div>
