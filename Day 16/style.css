@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+html body {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.navbar h1{
+    font-size: 16px;
+    padding-top: 11px;
+}
+
+.cross-icon i{
+    float: right;
+    border:1px solid green;
+    margin-bottom: 10px;
+}
+
+#navbarTwo {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+
+}
+
+#navbarTwo>div:nth-child(1) {
+    /* border: 1px solid green; */
+    height: 42px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+#imgdiv {
+    height: 23px;
+    width: 105px;
+}
+
+#Fistimg {
+    width: 100%;
+    height: 100%;
+}
+
+#navbarTwo>div:nth-child(2) {
+    /* border: 1px solid gold; */
+    height: 42px;
+    width: 50px;
+}
+
+#navbarTwo>div:nth-child(3) {
+    /* border: 1px solid gray; */
+    width: 38%;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
