@@ -8,22 +8,23 @@
 html,body{
     height: 100vh;
     width: 100%;
+    background-color: bisque;
 }
 
 .container{
     height: 80%;
     width: 36%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 50px auto;
     border-radius: 20px;
     background-color: rgb(249, 245, 245);
 }
 
 .cancel-btn{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 50px;
     width: 98%;
-    margin: 5px auto;
+    margin-top: 10px;
 }
 
 .cancel-btn i{
@@ -36,7 +37,7 @@ html,body{
 }
 
 .heading{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 50px;
     width: 80%;
     margin-top: 8px;
@@ -45,7 +46,7 @@ html,body{
 }
 
 .input-fields{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 10px auto;
     height: 78%;
     width: 90%;
@@ -102,4 +103,84 @@ input{
     border: none;
     font-size: medium;
     background-color: rgb(207, 209, 209);
+}
+
+.login-line-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-line{
+    height: 1px;
+    width: 38%;
+    background-color: grey;
+}
+
+.login-types{
+    position: relative;
+    bottom: 9px;
+    color: grey;
+    font-size: small;
+}
+
+.login-sites{
+    height: 90px;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-fields .login-sites{
+    margin: 10px auto;
+}
+
+.email{
+    text-align: center;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 52px;
+    font-size: x-large;
+    background-color: white;
+}
+
+.email i{
+    margin-top: 9px;
+    color: blue;
+}
+
+
+.login-sites p{
+    margin-top: 25px;
+    margin-left: 1px;
+    font-size: small;
+    color: grey;
+}
+
+.google{
+    text-align: center;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 52px;
+    font-size: x-large;
+    background-color: white;
+}
+
+.google i{
+    margin-top: 9px;
+    color: greenyellow;
+}
+
+.footer{
+    height: 40px;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    color: blue;
+    cursor: pointer;
 }
