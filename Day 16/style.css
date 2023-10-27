@@ -77,3 +77,209 @@ html body {
     align-items: center;
     cursor: pointer;
 }
+
+.navbar-3{
+    height: 170px;
+    width: 100%;
+    border: 1px solid rgb(225, 220, 220);
+}
+
+.nav-items{
+    height: 150px;
+    width: 80%;
+    margin: 10px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.first-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.second-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.second-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.third-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.third-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.fourth-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fourth-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.fifth-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fifth-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.sixth-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sixth-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.seventh-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.seventh-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.eigth-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.eigth-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.ninth-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ninth-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.tenth-item{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tenth-item p{
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.vertical-line{
+    height: 100vh;
+    width: 1px;
+    background-color: rgb(225, 220, 220);
+    position: absolute;
+    right: 71%;
+}
+
+.box-left{
+    border: 1px solid orange;
+    height: 400px;
+    width: 20%;
+    margin-top: 30px;
+    margin-left:50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.series{
+    border: 1px solid green;
+    height: 100px;
+    width: 50%;
+}
+
+.series input{
+    margin-top: 15px;
+}
+
+.offers{
+    border: 1px solid green;
+    height: 150px;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.offers input{
+    margin-top: 15px;
+}
+
+.custom-checkbox {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px; 
+    border: 1px solid #333; 
+    border-radius: 2px; 
+}  
