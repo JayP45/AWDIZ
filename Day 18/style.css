@@ -214,6 +214,10 @@
     margin: 20px auto;
 }
 
+
+/* ///////////////////////////////// Second box///////////////////////////// */
+
+
 .second-box{
     height: 320px;
     width: auto;
@@ -225,4 +229,134 @@
     height: 50px;
     width: 70%;
     border: 1px solid red;
+}
+
+.colors span{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 10%;
+}
+
+.color-option{
+    height: 50px;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.color-box{
+    height: 48px;
+    width: 70%;
+    border: 1px solid red;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey{
+    height: 48px;
+    width: 37%;
+    border: 1px solid black;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.black{
+    height: 48px;
+    width: 37%;
+    /* border: 1px solid black; */
+    background-color: black;
+    cursor: pointer;
+}
+
+.rom{
+    height: 40px;
+    width: 20%;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.rom abbr{
+    padding-left: 35%;
+    font-size: 20px;
+}
+
+.rom-info{
+    height: 58px;
+    width: 45%;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 20px;
+}
+
+.rom-info span{
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ////////////////////////third box//////////////////////// */
+
+.third-box{
+    height: 320px;
+    width: auto;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.exchange{
+    height: 50px;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.exchange span{
+    font-size: 20px;
+    padding-left: 10%;
+}
+
+.exchange p{
+    font-size: small;
+    color: grey;
+    padding-left: 10%;
+    margin-top: 5px;
+}
+
+.address-bar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(247, 246, 246);
+    display: flex;
+}
+
+.add-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 40%;
+    border: 1px solid red;
+    margin: 18px;
+}
+
+.address-bar i{
+    font-size: medium;
+    padding-right: 12px;
+}
+
+.address-bar span{
+    color: blue;
+}
+
+.how-it-work{
+    margin-top: 15px;
+    height: 30px;
+    width: 40%;
+    border: 1px solid red;
+}
+
+.how-it-work p{
+    text-decoration: underline;
+    font-size: 14px;
+    padding-left: 10%;
+    cursor: pointer;
 }
