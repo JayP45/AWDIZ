@@ -219,10 +219,16 @@
 
 
 .second-box{
-    height: 320px;
+    height: 287px;
     width: auto;
     border: 1px solid red;
     margin-top: 10px;
+}
+
+.inner-box-2{
+    height: 271px;
+    width: 90%;
+    border: 1px solid green;
 }
 
 .colors{
@@ -297,10 +303,16 @@
 /* ////////////////////////third box//////////////////////// */
 
 .third-box{
-    height: 320px;
+    height: 226px;
     width: auto;
     border: 1px solid red;
     margin-top: 10px;
+}
+
+.inner-box-3{
+    height: 200px;
+    width: 90%;
+    border: 1px solid green;
 }
 
 .exchange{
