@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main-container {
+    height: 500vh;
+    width: 100vw;
+    background-color: #f4f4f4;
+    border: 1px solid red;
+}
+
+.header{
+    height: 30px;
+    width: 90%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header span{
+    font-size: 20px;
+}
+
+.advertise{
+    height: 100px;
+    width: 90%;
+    border: 1px solid green;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.inner-div-box-1{
+    border: 1px solid red;
+    height: 60px;
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+}
+
+.img-box{
+    height: 48px;
+    width: 50px;
+    /* border: 1px solid red; */
+}
+
+.img-box i{
+    font-size: x-large;
+    margin-top: 15px;
+    padding-left: 9px;
+}
+
+.ship-info{
+    height: 50px;
+    width: 50%;
+    border: 1px solid red;
+    margin-top: 8px;
+}
+
+.ship-info span{
+    font-size: medium;
+    padding-left: 10px;
+}
+
+.ship-info p{
+    font-size: 13px;
+    color: grey;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.cart-item{
+    height: 180px;
+    width: 90%;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+
+.cart-inner-box{
+    border: 1px solid red;
+    width: 90%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-box1{
+    height: 120px;
+    width: 42%;
+    border: 1px solid red;
+    margin: 20px;
+}
+
+.cart-box2{
+    height: 120px;
+    width: 42%;
+    border: 1px solid red;
+    margin: 20px;
+}
