@@ -13,13 +13,13 @@ body {
     height: 500vh;
     width: 100vw;
     background-color: #f4f4f4;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header{
     height: 30px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 100px;
     display: flex;
@@ -33,14 +33,14 @@ body {
 .advertise{
     height: 100px;
     width: 90%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: auto;
     margin-top: 50px;
     background-color: white;
 }
 
 .inner-div-box-1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 60px;
     width: 80%;
     margin: 15px auto;
@@ -62,7 +62,7 @@ body {
 .ship-info{
     height: 50px;
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 8px;
 }
 
@@ -81,13 +81,13 @@ body {
 .cart-item{
     height: 180px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 20px auto;
     background-color: white;
 }
 
 .cart-inner-box{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     height: 170px;
     margin: auto;
@@ -98,7 +98,7 @@ body {
 .cart-box1{
     height: 120px;
     width: 42%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 20px;
     display: flex;
 }
@@ -106,21 +106,21 @@ body {
 .cart-box2{
     height: 120px;
     width: 42%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 20px;
 }
 
 .cart-img-box{
     height: 100px;
     width: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 9px;
 }
 
 .phone-info{
     height: 50px;
     width: 345px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 29px;
     margin-left: 20px;
 }
@@ -138,7 +138,7 @@ body {
 .price-info{
     height: 36px;
     width: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 10px;
     display: flex;
@@ -146,7 +146,7 @@ body {
 }
 
 .price-info-box{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 32px;
     width: 113px;
 }
@@ -158,7 +158,7 @@ body {
 .counter {
     display: flex;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 32px;
   }
   
@@ -180,7 +180,7 @@ body {
   }
   
 .cross{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 32px;
     width: 100px;
     display: flex;
@@ -195,7 +195,7 @@ body {
 .price-info-box-2{
     height: 30px;
     width: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
 }
 
@@ -211,36 +211,95 @@ body {
     height: 450px;
     width: 90%;
     margin: 40px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 }
 
 .item1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 24%;
+    background-color: white;
 }
 
 .img-div1{
     margin: 10px auto;
-    border: 1px solid red;
-    height: 300px;
-    width: 80%;
-    background-image: url('https://image01-in.oneplus.net/ebp/202209/13/1-m00-41-f3-cpgm7mmgpvialsseaanibllig9i197.png');
+    /* border: 1px solid red; */
+    height: 283px;
+    width: 89%;
 }
 
+.phone-cooler{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    width: 95%;
+    margin: auto
+}
 
+.phone-cooler p{
+    font-size: 14px;
+    color: grey;
+}
 
+.phone-cooler-price{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: 10px auto
+}
+
+.phone-cooler-price > span:first-child{
+    font-size: 22px;
+}
+
+.phone-cooler-price > span:nth-child(2){
+    padding-left: 10px;
+    font-size: 16px;
+    text-decoration: line-through;
+    text-decoration-line: grey;
+    text-decoration-thickness: 1px;
+    color: grey;
+}
+
+.button{
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 95%;
+    margin: auto;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button p{
+    font-size: 15px;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+}
 
 .item2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 24%;
+    background-color: white;
 }
 .item3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 24%;
+    background-color: white;
 }
 .item4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 24%;
+    background-color: white;
+}
+
+@media screen and (max-width:728px){
+    .grid-box{
+        
+    }
 }
