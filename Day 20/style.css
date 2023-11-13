@@ -6,9 +6,9 @@
 }
 
 .main-container {
-    /* border: 1px solid red; */
+    border: 1px solid rgb(55, 255, 0);
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .header-content-box {
@@ -172,12 +172,12 @@
     border: 1px solid red;
 }
 
- @media screen and (max-width:800px){
-    .first-img-box{
+@media screen and (max-width:800px) {
+    .first-img-box {
         border: 1px solid green;
         width: 100%;
     }
-} 
+}
 
 .gift-box {
     margin: 50px auto;
@@ -186,14 +186,14 @@
     width: 100%;
 }
 
-.gift-boxp1{
+.gift-boxp1 {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(0, 47, 255);
 }
 
-.gift-boxp1 p{
+.gift-boxp1 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
     font-weight: 900;
@@ -202,7 +202,7 @@
     border: 1px solid rgb(0, 47, 255);
 }
 
-.gift-boxp2{
+.gift-boxp2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,13 +212,13 @@
     margin: auto;
 }
 
-.gift-boxp2 p{
+.gift-boxp2 p {
     line-height: 44px;
     cursor: pointer;
     border: 1px solid yellow;
 }
 
-.gift-box-btn{
+.gift-box-btn {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -243,4 +243,261 @@
         height: 300px;
         border: 1px solid green;
     }
+}
+
+.feature-shop-nav {
+    width: 90%;
+    height: 35px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-shop-nav p:first-child {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-shop-nav p:nth-child(2) {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured-shoes-section {
+    margin: 20px auto;
+    height: 600px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.featured-shoes-section-box1 {
+    position: relative;
+    border: 1px solid red;
+    width: 32%;
+    height: 100%;
+}
+
+.featured-shoes-section-box1 p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 3px;
+    font-size: 23px;
+}
+
+.featured-shoes-section-box2 {
+    position: relative;
+    border: 1px solid red;
+    width: 32%;
+    height: 100%;
+}
+
+.featured-shoes-section-box2 p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 3px;
+    font-size: 23px;
+}
+
+.featured-shoes-section-box3 {
+    position: relative;
+    border: 1px solid red;
+    width: 32%;
+    height: 100%;
+}
+
+.featured-shoes-section-box3 p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 3px;
+    font-size: 23px;
+}
+
+
+ /* ///////////////////////////////////////////////Trendind///////////////////////////////////////////  */
+
+.trending-header {
+    margin: 81px 74px 0px 76px;
+    height: 35px;
+    width: 90%;
+    border: 1px solid red;
+}
+
+.trending-header p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trending-img-div {
+    margin: 10px auto;
+    height: 600px;
+    width: 90%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-img-box1 {
+    position: relative;
+    height: 100%;
+    width: 49%;
+    border: 1px solid red;
+}
+
+.trending-img-box2 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.trending-img-p {
+    height: 100px;
+    position: absolute;
+    bottom: 67px;
+    left: 46px;
+    border: 1px solid red;
+}
+
+.trending-img-p p:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.trending-img-p p:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.trending-img-p button{
+    padding: 6px 24px;
+    border-radius: 17px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+/* //////////////////////////////////////////////////The Latest//////////////////////////////////////////////// */
+
+.latest-header{
+    margin: 81px 74px 0px 76px;
+    height: 35px;
+    width: 90%;
+    border: 1px solid red;
+}
+
+.latest-header p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.latest-img-div{
+    margin: 10px auto;
+    height: 750px;
+    width: 90%;
+    border: 1px solid red;
+}
+
+.latest-p-box{
+    margin: 20px auto;
+    border: 1px solid red;
+    width: 90%;
+    height: 256px;
+    text-align: center;
+}
+
+/* .latest-p-box p:first-child{
+    margin-top: 30px;
+    color: red;
+} */
+
+.latest-p1{
+    height: 127px;
+    width: 35%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.latest-p1 p{
+    color: black;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+
+.latest-p-box p:nth-child(3){
+    margin-top: 10px;
+}
+
+.latest-p-box button{
+    margin-top: 30px;
+    padding: 10px 27px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+}
+
+/* ////////////////////////////////////////////////////Gear Up//////////////////////////////////////////// */
+
+.gear-header{
+    margin: 81px 74px 0px 76px;
+    height: 35px;
+    width: 90%;
+    border: 1px solid red;
+}
+
+.gear-header p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gear-up-img-div{
+    margin: 20px auto;
+    height: 550px;
+    width: 85%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gear-img-box{
+    position: relative;
+    height: 100%;
+    width: 33%;
+    border: 1px solid green;
+}
+
+.gear-img-box p{
+    border: 1px solid red;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 3px;
+    font-size: 23px;
+}
+
+.gear-img-box button{
+    padding: 10px 27px;
+    border-radius: 17px;
 }
