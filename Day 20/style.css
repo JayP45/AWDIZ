@@ -322,7 +322,7 @@
 }
 
 
- /* ///////////////////////////////////////////////Trendind///////////////////////////////////////////  */
+/* ///////////////////////////////////////////////Trendind///////////////////////////////////////////  */
 
 .trending-header {
     margin: 81px 74px 0px 76px;
@@ -367,14 +367,14 @@
     border: 1px solid red;
 }
 
-.trending-img-p p:first-child{
+.trending-img-p p:first-child {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: white;
     font-weight: 600;
 }
 
-.trending-img-p p:nth-child(2){
+.trending-img-p p:nth-child(2) {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: white;
@@ -382,7 +382,7 @@
     font-weight: 600;
 }
 
-.trending-img-p button{
+.trending-img-p button {
     padding: 6px 24px;
     border-radius: 17px;
     margin-top: 20px;
@@ -396,7 +396,7 @@
 
 /* //////////////////////////////////////////////////The Latest//////////////////////////////////////////////// */
 
-.latest-header{
+.latest-header {
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
@@ -408,14 +408,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.latest-img-div{
+.latest-img-div {
     margin: 10px auto;
     height: 750px;
     width: 90%;
     border: 1px solid red;
 }
 
-.latest-p-box{
+.latest-p-box {
     margin: 20px auto;
     border: 1px solid red;
     width: 90%;
@@ -428,24 +428,24 @@
     color: red;
 } */
 
-.latest-p1{
+.latest-p1 {
     height: 127px;
     width: 35%;
     /* border: 1px solid black; */
     margin: auto;
 }
 
-.latest-p1 p{
+.latest-p1 p {
     color: black;
     font-size: xxx-large;
     font-weight: 900;
 }
 
-.latest-p-box p:nth-child(3){
+.latest-p-box p:nth-child(3) {
     margin-top: 10px;
 }
 
-.latest-p-box button{
+.latest-p-box button {
     margin-top: 30px;
     padding: 10px 27px;
     border-radius: 20px;
@@ -458,19 +458,19 @@
 
 /* ////////////////////////////////////////////////////Gear Up//////////////////////////////////////////// */
 
-.gear-header{
+.gear-header {
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
     border: 1px solid red;
 }
 
-.gear-header p{
+.gear-header p {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.gear-up-img-div{
+.gear-up-img-div {
     margin: 20px auto;
     height: 550px;
     width: 85%;
@@ -479,14 +479,14 @@
     justify-content: space-between;
 }
 
-.gear-img-box{
+.gear-img-box {
     position: relative;
     height: 100%;
     width: 33%;
     border: 1px solid green;
 }
 
-.gear-img-box p{
+.gear-img-box p {
     border: 1px solid red;
     color: white;
     position: absolute;
@@ -495,7 +495,7 @@
     font-size: 19px;
 }
 
-.gear-img-box button{
+.gear-img-box button {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 53px;
@@ -507,21 +507,22 @@
     border: 1px solid white;
     font-size: 16px;
 }
+
 /* ///////////////////////////////////////////////////////////don't miss/////////////////////////////////////////////// */
 
-.dont-miss-header{
+.dont-miss-header {
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
     border: 1px solid red;
 }
 
-.dont-miss-header p{
+.dont-miss-header p {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.dont-miss-img-div{
+.dont-miss-img-div {
     margin: 20px auto;
     height: 633px;
     width: 85%;
@@ -530,14 +531,14 @@
     justify-content: space-between;
 }
 
-.dont-miss-img-box{
+.dont-miss-img-box {
     position: relative;
     height: 100%;
     width: 49.6%;
     border: 1px solid green;
 }
 
-.dont-miss-img-box p{
+.dont-miss-img-box p {
     /* border: 1px solid red; */
     color: white;
     position: absolute;
@@ -546,7 +547,7 @@
     font-size: 18px;
 }
 
-.dont-miss-img-box button{
+.dont-miss-img-box button {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 40px;
@@ -561,19 +562,19 @@
 
 /* ////////////////////////////////////iconic///////////////////////////////// */
 
-.iconic-header{
+.iconic-header {
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
     border: 1px solid red;
 }
 
-.iconic-header p{
+.iconic-header p {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.iconic-img-div{
+.iconic-img-div {
     margin: 20px auto;
     height: 300px;
     width: 85%;
@@ -583,28 +584,29 @@
     overflow-y: hidden;
 }
 
-.iconic-img-box{
+.iconic-img-box {
     display: inline-block;
     height: 100%;
     width: 22%;
     border: 1px solid red;
     margin-right: 10px;
 }
+
 /* ///////////////////////////////////////////shop by sport/////////////////////////// */
 
-.shop-sport-header{
+.shop-sport-header {
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
     border: 1px solid red;
 }
 
-.shop-sport-header p{
+.shop-sport-header p {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.shop-sport-img-div{
+.shop-sport-img-div {
     margin: 20px auto;
     height: 480px;
     width: 85%;
@@ -614,7 +616,7 @@
     overflow-y: hidden;
 }
 
-.shop-sport-img-box{
+.shop-sport-img-box {
     display: inline-block;
     height: 100%;
     width: 37%;
@@ -622,43 +624,44 @@
     margin-right: 10px;
 }
 
-.sport-img{
+.sport-img {
     width: 100%;
     height: 70%;
     border: 1px solid red;
 }
 
-.shop-sport-img-box p:nth-of-type(1){
-    margin-top:10px ;
+.shop-sport-img-box p:nth-of-type(1) {
+    margin-top: 10px;
     font-size: 20px;
 }
 
-.shop-sport-img-box p:nth-of-type(2){
+.shop-sport-img-box p:nth-of-type(2) {
     margin-top: 9px;
     font-size: 15px;
 }
 
-.shop-sport-img-box p:nth-of-type(3){
+.shop-sport-img-box p:nth-of-type(3) {
     font-size: 16px;
     text-decoration: underline;
     position: relative;
     top: 51px;
 }
+
 /* /////////////////////////////////////Essentials/////////////////////////////////// */
 
-.essentials-header{
+.essentials-header {
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
     border: 1px solid red;
 }
 
-.essentials-header p{
+.essentials-header p {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.essentials-img-div{
+.essentials-img-div {
     margin: 20px auto;
     height: 480px;
     width: 85%;
@@ -667,13 +670,13 @@
     justify-content: space-between;
 }
 
-.essentials-img-box{
+.essentials-img-box {
     position: relative;
     height: 100%;
     width: 33%;
 }
 
-.essentials-img-box button{
+.essentials-img-box button {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 40px;
@@ -685,8 +688,9 @@
     border: 1px solid white;
     font-size: 16px;
 }
+
 /* ////////////////////////////////////////All Menu//////////////////////////////////// */
-.all-menu-container{
+.all-menu-container {
     border: 1px solid red;
     margin: 30px auto;
     height: 300px;
@@ -695,11 +699,84 @@
     justify-content: space-between;
 }
 
-.all-menu-container p:nth-of-type(1){
+.all-menu-container p:nth-of-type(1) {
     margin-top: 20px;
 }
 
-.all-menu-container p{
+.all-menu-container p {
     line-height: 32px;
     color: grey;
+}
+
+/* ///////////////////////////////////////////////footer section////////////////////////////////////////////////// */
+
+
+footer {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    margin-top: 59px;
+}
+
+.footer-container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.footer-container-box{
+    margin: 15px auto;
+    border: 1px solid white;
+    height: 80%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box1{
+    margin-top: 10px;
+    height: 95%;
+    width: 60%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box1 span{
+    color: white;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer1 p{
+    color: white;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer-box2{
+    margin-top: 10px;
+    height: 95%;
+    width: 40%;
+    border: 1px solid white;
+}
+
+.footer1{
+    height: 95%;
+    width: 30%;
+    border: 1px solid green;
+}
+
+.footer2{
+    height: 95%;
+    width: 30%;
+    border: 1px solid green;
+}
+
+.footer3{
+    height: 95%;
+    width: 30%;
+    border: 1px solid green;
 }
