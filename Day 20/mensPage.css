@@ -6,7 +6,7 @@
 }
 
 .main-container {
-    border: 1px solid rgb(55, 255, 0);
+    /* border: 1px solid rgb(55, 255, 0); */
     width: 100%;
     height: auto;
 }
@@ -15,7 +15,7 @@
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 }
@@ -26,7 +26,7 @@
 }
 
 .empty-div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100%;
     width: 4%;
 }
@@ -34,7 +34,7 @@
 .mens-menu{
     height: 100%;
     width: 20%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,14 +48,14 @@
     height: 700px;
     width: 90%;
     margin: 20px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .gfts-add-container{
     margin: auto;
     height: 233px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 }
 
@@ -136,7 +136,7 @@
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .featured-header p{
@@ -148,14 +148,14 @@
     width: 90%;
     height: 700px;
     margin: 20px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .featured-add-footer{
     margin: auto;
     height: 199px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 }
 
@@ -189,7 +189,7 @@
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .just-in-header p{
@@ -201,14 +201,14 @@
     width: 90%;
     height: 700px;
     margin: 20px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .just-in-add-footer{
     margin: auto;
     height: 220px;
     width: 69%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 }
 
@@ -250,7 +250,7 @@
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .latest-header p{
@@ -262,7 +262,7 @@
     width: 90%;
     height: 600px;
     margin: 20px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 }
@@ -309,7 +309,7 @@
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .trending-header p{
@@ -321,7 +321,7 @@
     width: 90%;
     height: 700px;
     margin: 20px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 }
@@ -330,7 +330,7 @@
     margin: auto;
     height: 199px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 }
 
@@ -362,7 +362,7 @@
     margin: auto;
     height: 250px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 }
 
@@ -400,7 +400,7 @@
     margin: 81px 74px 0px 76px;
     height: 35px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .shop-esse p{
@@ -420,7 +420,7 @@
 .shop-esse-img-box{
     height: 70%;
     width: 33%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .shop-esse-img-box p:nth-of-type(1){
@@ -454,7 +454,7 @@
     width: 90%;
     height: 600px;
     margin: 20px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -462,11 +462,78 @@
 .icon-box{
     display: inline-block;
     height: 100%;
-    border: 1px solid black;
+    width: 28%;
+    /* border: 1px solid black; */
 }
 
 .icon-img-div{
     height: 100%;
-    width: 33%;
-    border: 1px solid red;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.icon-box p:nth-of-type(1){
+    position: relative;
+    bottom: 106px;
+    font-size: 20px;
+}
+/* ///////////////////////////Shop by sport/////////////////// */
+
+.shop-sport{
+    margin: 81px 74px 0px 76px;
+    height: 35px;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+.shop-sport p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shops-sport-img-div{
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.shops-sport-img-box{
+    display: inline-block;
+    height: 100%;
+    width: 32%;
+    /* border: 1px solid black; */
+}
+
+.shop-sport-img-div{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.shop-sport-img-div p:nth-of-type(1){
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+/* //////////////////////////////////////All Section/////////////////////////// */
+.all-menu-container {
+    /* border: 1px solid red; */
+    margin: 30px auto;
+    height: 300px;
+    width: 54%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-menu-container p:nth-of-type(1) {
+    margin-top: 20px;
+}
+
+.all-menu-container p {
+    line-height: 32px;
+    color: grey;
 }
