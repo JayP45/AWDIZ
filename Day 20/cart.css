@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body ,html{
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.cart-container{
+    border: 1px solid red;
+    margin: 40px auto;
+    height: 80%;
+    width: 80%;
+    display: flex;
+}
+
+.bag-box{
+    width: 60%;
+    height: 50%;
+    border: 1px solid red;
+    font-size: 22px;
+}
