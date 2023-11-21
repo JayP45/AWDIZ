@@ -23,4 +23,48 @@ body ,html{
     height: 50%;
     border: 1px solid red;
     font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-box{
+    height: 131px;
+    width: 139px;
+    border: 1px solid red;
+}
+
+.bag-info-box{
+    height: 134px;
+    width: 315px;
+    border: 1px solid red;
+    margin: 20px auto;
+    padding: 25px 20px;
+}
+
+.bag-info-box p{
+    line-height: 1.2rem;
+}
+
+.bag-info-box :first-child{
+    font-size: 13px;
+}
+
+.bag-info-box p:nth-child(2){
+    color: grey;
+    font-size: 13px;
+}
+.bag-info-box p:nth-child(3){
+    color: grey;
+    font-size: 13px;
+}
+.bag-info-box p:nth-child(4){
+    color: grey;
+    font-size: 13px;
+}
+
+.price-box{
+    border: 1px solid red;
+    width: 157px;
+    height: 42px;
+    font-size: 13px;
 }
