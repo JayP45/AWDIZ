@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SCR Ducati Style Ex XBold",sans-serif;
+}
+
+.main-div{
+    height: auto;
+    width: 100%;
+}
+
+.bg-img-container{
+    border: 1px solid red;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://scramblerducati.com/wp-content/uploads/2023/09/Scrambler-Icon-hero-homepage-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    height: 50px;
+    width: 92%;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.nav-box1{
+    height: 100%;
+    width: 15%;
+    border: 1px solid red;
+}
