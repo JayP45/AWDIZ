@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,900;1,800&family=Mulish:wght@600;800&family=Open+Sans:wght@800&family=Pacifico&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&family=Mulish:wght@600;800&family=Open+Sans:wght@800&family=Pacifico&family=Pathway+Gothic+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -18,17 +21,57 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: inset 0px 0px  100px 36px rgb(39, 39, 39);
 }
 
 .navbar{
     height: 50px;
     width: 92%;
-    border: 1px solid red;
+    border: 1px solid blue;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-box1{
     height: 100%;
     width: 15%;
-    border: 1px solid red;
+    border: 1px solid blue;
+    text-align: right;
+}
+
+.nav-box1 :first-child{
+   font-family: Pathway;
+   font-style: italic;
+   font-weight: 600;
+   font-size: x-large;
+   color: white;
+}
+
+.nav-box1 p:nth-of-type(2){
+    font-family: Kanti;
+    color: white;
+   font-weight: bold;
+}
+
+.nav-box2{
+    
+}
+
+.nav-box3{
+    height: 100%;
+    width: 30%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-box3 i{
+    color: white;
+    font-size: 18px;
+}
+
+.nav-box3 i:nth-of-type(6){
+    font-size: 40px;
 }
