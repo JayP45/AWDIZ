@@ -27,7 +27,7 @@
 .navbar{
     height: 50px;
     width: 92%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@
 .nav-box1{
     height: 100%;
     width: 15%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: right;
 }
 
@@ -55,23 +55,68 @@
 }
 
 .nav-box2{
-    
-}
-
-.nav-box3{
     height: 100%;
-    width: 30%;
-    border: 1px solid blue;
+    width: 18%;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-box3 i{
+.nav-box2 i{
     color: white;
     font-size: 18px;
 }
 
-.nav-box3 i:nth-of-type(6){
+.nav-box2 i:nth-of-type(6){
     font-size: 40px;
+}
+
+.next-gen-icon{
+    /* border: 1px solid red; */
+    margin: 25% 0% 0% 5%;
+    height: 110px;
+    width: 20%;
+}
+
+.next-gen-icon h1{
+    color: white;
+    font-size: 50px;
+    float: right;
+}
+
+.next-gen-icon h1:nth-of-type(2){
+    color: white;
+    font-size: 50px;
+    margin-right: 120px;
+}
+
+.horizontal-line{
+    height: 4px;
+    width: 15%;
+    background-color: #F7BF01;
+    margin-left: 160px;
+}
+
+.next-gen-p{
+    color: white;
+    margin: 10px 0px 0px 160px;
+    width: 42%;
+    font-size: 24px;
+}
+
+.bg-img-container button{
+    margin: 10px 0px 0px 160px;
+    padding: 11px 40px;
+    background-color: #F7BF01;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+.part-two{
+    margin: 10px 0px 0px 160px;
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
 }
