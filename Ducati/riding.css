@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-container{
+    border: 1px solid red;
+    height: 90vh;
+    width: 100vw;
+    background-image: url(https://images.ctfassets.net/x7j9qwvpvr5s/53SG3375bSo3Z3qu8lmNTu/439f25166cd5b48e7bf0de1ccd7a6688/DRE-hero-1600x1000_5140.jpg?fm=webp&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    margin: 10px auto;
+    border: 1px solid white;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1{
+    height: 100%;
+    width: 20%;
+    border: 1px solid white;
+}
+
+.box2{
+    height: 100%;
+    width: 20%;
+    border: 1px solid white;
+}
