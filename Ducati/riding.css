@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kanit:ital,wght@0,900;1,800&family=Mulish:wght@600;800&family=Open+Sans:wght@800&family=Pacifico&family=Pathway+Gothic+One&family=Rajdhani:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -79,6 +80,8 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top:0
 }
 
 .navbox1{
@@ -136,4 +139,16 @@ section p{
 section p:nth-of-type(2){
     margin-top: 10px;
     font-size: 50px;
+}
+
+.section-box{
+    margin: 50px auto;
+    border: 1px solid black;
+    width: 55%;
+    height: 400px;
+}
+
+.section-box p{
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
 }
