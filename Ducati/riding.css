@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "SCR Ducati Style Ex XBold",sans-serif;
 }
 .img-container{
     border: 1px solid red;
@@ -15,9 +16,9 @@
 
 .navbar{
     margin: 10px auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 90%;
-    height: 80px;
+    height: 49px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,11 +27,113 @@
 .box1{
     height: 100%;
     width: 20%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.innerbox1 p{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    /* border: 1px solid black; */
+    height: 25px;
+}
+
+.innerbox1 p:nth-of-type(2){
+    font-size: 16px;
+    float: right;
+}
+
+.innerbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbox2 p{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    padding: 25px;
 }
 
 .box2{
     height: 100%;
     width: 20%;
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.box2 p{
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar-2{
+    margin: 15px auto;
+    width: 95%;
+    height: 85px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbox1{
+    height: 90%;
+    /* border: 1px solid black; */
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbox1 i{
+    color: black;
+}
+
+.navbox2{
+    height: 90%;
+    /* border: 1px solid black; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgbox{
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 13%;
+}
+
+.navbox3{
+    height: 90%;
+    /* border: 1px solid black; */
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+.section{
+    position: relative;
+    top: 300px;
+    left: 100px;
     border: 1px solid white;
+    width: 30%;
+    height: 100px;
+}
+
+section p{
+    color: white;
+}
+
+section p:nth-of-type(2){
+    margin-top: 10px;
+    font-size: 50px;
 }
