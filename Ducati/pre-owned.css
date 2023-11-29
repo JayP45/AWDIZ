@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:wght@300&family=Hedvig+Letters+Sans&family=Kanit:ital,wght@0,900;1,800&family=Mulish:wght@600;800&family=Open+Sans:wght@800&family=Pacifico&family=Pathway+Gothic+One&family=Rajdhani:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.navbar{
+    height: 88px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logobox{
+    height: 100%;
+    width: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerbox{
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerbox span{
+    font-size: 24px;
+    color: rgb(37, 36, 36);
+}
+
+
+.countrybox{
+    height: 100%;
+    width: 9%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countrybox i{
+    margin: 20px;
+    font-size: 20px;
+    color: grey;
+}
+
+.countrybox span{
+    font-size: 20px;
+    color: grey;
+}
+
+.img-container{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(https://preowned.ducati.com/models/img/preowned-bg-desktop.jpg);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infobox{
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 70%;
+}
+
+.infobox header{
+    text-align: center;
+}
+
+.infobox span{
+    color: white;
+    font-size: 40px;
+}
+
+.inputbox{
+    /* border: 1px solid green; */
+    margin: 40px auto;
+    height: 200px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.inputbox input[type="text"]{
+    border: none;
+    border-bottom:1px solid white;
+    height: 30px;
+    padding-right: 20%;
+    background: transparent;
+}
+
+.inputbox button{
+    height: 40px;
+    padding: 26px 46px;
+    background-color: #C1C1C1;
+    border: none;
+    border-radius: 4px;
+    color: #454545;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-tabs{
+    margin: auto;
+    height: 70px;
+    /* border: 1px solid black; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-tabs span{
+    font-size: 24px;
+}
+
+.side-div{
+    /* border: 1px solid red; */
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.innerdiv-1{
+    height: 95%;
+    width: 36%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.innerdiv-1 span{
+    font-size: 16px;
+}
+
+.innerdiv-2{
+    height: 95%;
+    width: 40%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.menu1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu1 i{
+    font-size: 18px;
+}
+
+.menu1:hover{
+    background-color: black;
+    color: white;
+}
+
+.menu2{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu2 i{
+    font-size: 18px;
+}
