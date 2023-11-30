@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:wght@300&family=Hedvig+Letters+Sans&family=Kanit:ital,wght@0,900;1,800&family=Mulish:wght@600;800&family=Open+Sans:wght@800&family=Pacifico&family=Pathway+Gothic+One&family=Rajdhani:wght@300&family=Roboto:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.navbar {
     height: 88px;
     width: 90%;
     /* border: 1px solid black; */
@@ -16,7 +16,7 @@
     justify-content: space-between;
 }
 
-.logobox{
+.logobox {
     height: 100%;
     width: 100px;
     /* border: 1px solid black; */
@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.headerbox{
+.headerbox {
     height: 100%;
     /* border: 1px solid black; */
     display: flex;
@@ -33,13 +33,13 @@
     align-items: center;
 }
 
-.headerbox span{
+.headerbox span {
     font-size: 24px;
     color: rgb(37, 36, 36);
 }
 
 
-.countrybox{
+.countrybox {
     height: 100%;
     width: 9%;
     /* border: 1px solid black; */
@@ -48,18 +48,18 @@
     align-items: center;
 }
 
-.countrybox i{
+.countrybox i {
     margin: 20px;
     font-size: 20px;
     color: grey;
 }
 
-.countrybox span{
+.countrybox span {
     font-size: 20px;
     color: grey;
 }
 
-.img-container{
+.img-container {
     height: 600px;
     width: 100%;
     border: 1px solid black;
@@ -70,22 +70,22 @@
     align-items: center;
 }
 
-.infobox{
+.infobox {
     /* border: 1px solid red; */
     height: 300px;
     width: 70%;
 }
 
-.infobox header{
+.infobox header {
     text-align: center;
 }
 
-.infobox span{
+.infobox span {
     color: white;
     font-size: 40px;
 }
 
-.inputbox{
+.inputbox {
     /* border: 1px solid green; */
     margin: 40px auto;
     height: 200px;
@@ -96,15 +96,15 @@
     text-align: center;
 }
 
-.inputbox input[type="text"]{
+.inputbox input[type="text"] {
     border: none;
-    border-bottom:1px solid white;
+    border-bottom: 1px solid white;
     height: 30px;
     padding-right: 20%;
     background: transparent;
 }
 
-.inputbox button{
+.inputbox button {
     height: 40px;
     padding: 26px 46px;
     background-color: #C1C1C1;
@@ -116,7 +116,7 @@
     align-items: center;
 }
 
-.recent-tabs{
+.recent-tabs {
     margin: 15px auto;
     height: 70px;
     /* border: 1px solid black; */
@@ -126,11 +126,11 @@
     align-items: center;
 }
 
-.recent-tabs span{
+.recent-tabs span {
     font-size: 24px;
 }
 
-.side-div{
+.side-div {
     /* border: 1px solid red; */
     height: 90%;
     width: 30%;
@@ -139,7 +139,7 @@
     align-items: center;
 }
 
-.innerdiv-1{
+.innerdiv-1 {
     height: 95%;
     width: 36%;
     border: 1px solid grey;
@@ -149,11 +149,11 @@
     border-radius: 2px;
 }
 
-.innerdiv-1 span{
+.innerdiv-1 span {
     font-size: 14px;
 }
 
-.innerdiv-2{
+.innerdiv-2 {
     height: 95%;
     width: 40%;
     border: 1px solid black;
@@ -163,7 +163,7 @@
     border-radius: 2px;
 }
 
-.menu1{
+.menu1 {
     height: 100%;
     width: 50%;
     display: flex;
@@ -171,16 +171,16 @@
     align-items: center;
 }
 
-.menu1 i{
+.menu1 i {
     font-size: 18px;
 }
 
-.menu1:hover{
+.menu1:hover {
     background-color: black;
     color: white;
 }
 
-.menu2{
+.menu2 {
     height: 100%;
     width: 50%;
     background-color: black;
@@ -190,11 +190,11 @@
     align-items: center;
 }
 
-.menu2 i{
+.menu2 i {
     font-size: 18px;
 }
 
-.grid-container{
+.grid-container {
     margin: 15px auto;
     /* border: 1px solid black; */
     height: 600px;
@@ -203,20 +203,20 @@
     justify-content: space-between;
 }
 
-.grid-box{
+.grid-box {
     height: 100%;
     border: 1px solid #C1C1C1;
     width: 32%;
 }
 
-.card-info{
+.card-info {
     margin: auto;
     /* border: 1px solid black; */
     height: 50%;
     width: 96%;
 }
 
-.infobox-1{
+.infobox-1 {
     margin-top: 2px;
     height: 30px;
     width: 100%;
@@ -226,17 +226,35 @@
     align-items: center;
 }
 
-.infobox-1 span:first-child{
+.infobox-1 span:first-child {
     font-size: 14px;
 }
 
-.infobox-1 span:nth-of-type(2){
+.infobox-1 span:nth-of-type(2) {
     color: #C1C1C1;
     font-size: small;
 }
 
-.infobox-1 i{
+.infobox-1 i {
     margin: 5px;
     font-size: 14px;
     color: #C1C1C1;
+}
+
+.footer  {
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: #F0F0F0;
+    border: 1px solid #F0F0F0;
+}
+
+.footer1  {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-weight: bold;
+    font-size: 14px;
 }
